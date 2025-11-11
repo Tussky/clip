@@ -1,0 +1,9 @@
+[project]
+name = "mytool"
+version = "0.0.1"
+dependencies = [
+    "click>=8.3.0",
+]
+
+[project.scripts]
+mytool = "mytool.tester:cli"
