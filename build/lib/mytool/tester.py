@@ -1,4 +1,5 @@
 import click
+import os
 
 @click.group()
 def cli():
@@ -11,3 +12,8 @@ def cli():
 def say(count):
     for time in range(count):
         click.echo("hello there")
+
+@cli.command()
+def myls():
+    click.echo(os.listdir(path="."))
+    click.secho("listed files", fg = "green", bold = True) 
