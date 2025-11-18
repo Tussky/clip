@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# client secrets
+client_secret.json
+
 
 # Distribution / packaging
 .Python
