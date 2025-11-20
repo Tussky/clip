@@ -4,8 +4,7 @@ __pycache__/
 *$py.class
 
 # client secrets
-client_secret.json
-
+my_youtube_secrets.py
 
 # Distribution / packaging
 .Python
